@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+body{
+background-image: url(./Fotos/Descargar\ Diseño\ de\ brillo\ dorado\ sobre\ fondo\ negro\ para\ navidad\ y\ año\ nuevo\ ilustración\ vectorial\ gratis.jpg);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(240, 239, 241);
+    font-style: italic;
+    text-align: center;
+}
+
+
+.sub {
+    color: rgb(248, 244, 18);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    justify-content: center;
+    align-items: row;
+    width: 30%;
+    height: 50%;
+    margin-left: 1%;
+    opacity: .5;
+    border: 30px double rgb(136, 123, 123)
+}
+.fotos {
+    display: flex;
+    flex-wrap: wrap;   
+}
+.fotos :hover {
+   opacity: 1;
+   border: 35px double rgb(233, 211, 15);
+   
+}
+
+.menu {
+    list-style-type: none;
+    text-align: right;
+    background-color: rgb(245, 148, 245);
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    position: relative;
+    color: rgb(3, 3, 3);
+}
+
+.menu li :hover{
+    background-color: rgb(216, 238, 14);
+    border-radius: 50%;
+} 
+
+.madre {
+    width: 90%;
+    border: solid 5px coral;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    grid-template-areas: 
+    "ab ab c"
+    "d ef ef";
+    }
+   
+.ab{
+    background-color: antiquewhite;
+    grid-area: ab;
+}
+.c{
+    background-color: blue;
+    grid-area: c;
+}
+.d{
+    background-color: violet;
+    grid-area: d;
+}
+.ef{
+    background-color: brown;
+    grid-area: ef;
+}
+
+footer {
+    list-style-type: none;
+    text-align: left;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, black, gold);
+}
+.foot{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.foot li a {
+    text-decoration: none;
+    position: relative;
+    color: black;
+}
+
+.foot li :hover{
+    color: antiquewhite;
+}
+.foot li:hover{
+    transform:scale(1.1, 1.1)
+}
+
